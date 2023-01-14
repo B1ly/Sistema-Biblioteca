@@ -38,6 +38,11 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/autores', 'Autores::index');
+$routes->get('/add', 'Autores::add');
+$routes->post('/add', 'Autores::add');
+$routes->post('/store', 'Autores::store');
+$routes->post('/edit', 'Autores::edit');
+
 
 /*
  * --------------------------------------------------------------------
