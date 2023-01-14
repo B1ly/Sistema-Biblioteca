@@ -13,4 +13,9 @@ class AutoresModel extends Model
     {
         return $this->findAll();
     }
+
+    public function add($dato)
+    {
+        return $this->save($dato);
+    }
 }

@@ -31,3 +31,61 @@ in APPPATH\Views\index.php on line 18.
  7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 14:28:38 --> Undefined array key "apellido"
+in APPPATH\Controllers\Autores.php on line 25.
+ 1 APPPATH\Controllers\Autores.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido"', 'APPPATH\\Controllers\\Autores.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Autores->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autores))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 14:39:08 --> Undefined array key "apellido"
+in APPPATH\Controllers\Autores.php on line 26.
+ 1 APPPATH\Controllers\Autores.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido"', 'APPPATH\\Controllers\\Autores.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Autores->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autores))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 14:40:47 --> Undefined array key "apellido"
+in APPPATH\Controllers\Autores.php on line 26.
+ 1 APPPATH\Controllers\Autores.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido"', 'APPPATH\\Controllers\\Autores.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Autores->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autores))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 17:34:41 --> Too few arguments to function App\Controllers\Autores::edit(), 0 passed in C:\xampp\htdocs\biblioteca\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Autores.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Autores->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autores))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 17:39:03 --> Too few arguments to function App\Controllers\Autores::edit(), 0 passed in C:\xampp\htdocs\biblioteca\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Autores.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Autores->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autores))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 17:39:10 --> Too few arguments to function App\Controllers\Autores::edit(), 0 passed in C:\xampp\htdocs\biblioteca\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Autores.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Autores->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autores))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 17:39:57 --> Too few arguments to function App\Controllers\Autores::edit(), 0 passed in C:\xampp\htdocs\biblioteca\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Autores.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Autores->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autores))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 17:41:21 --> Too few arguments to function App\Controllers\Autores::edit(), 0 passed in C:\xampp\htdocs\biblioteca\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Autores.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Autores->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autores))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 17:44:04 --> Undefined variable $dato
+in APPPATH\Config\Routes.php on line 44.
+ 1 APPPATH\Config\Routes.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Config\\Routes.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
